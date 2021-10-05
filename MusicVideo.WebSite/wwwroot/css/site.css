@@ -1,0 +1,222 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: red;
+}
+
+.container {
+    color: white;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: black;
+  color: white;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/* Video Styles */
+.video-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 1000px;
+    height: 600px;
+}
+
+.video {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-radius: 1px;
+    padding: 1px;
+    border: 1px solid black;
+}
+
+/* Animation Styles */
+#bars {
+    height: 300px;
+    left: 50%;
+    margin: -30px 0 0 -20px;
+    position: relative;
+    top: 50%;
+    width: 500px;
+}
+
+.bar {
+    background: red;
+    bottom: 1px;
+    height: 250px;
+    position: absolute;
+    width: 25px;
+    animation: sound 0ms -800ms linear infinite alternate;
+}
+
+@keyframes sound {
+    0% {
+        opacity: .35;
+        height: 3px;
+    }
+
+    100% {
+        opacity: 1;
+        height: 200px;
+    }
+}
+
+.bar:nth-child(1) {
+    left: -450px;
+    animation-duration: 474ms;
+}
+
+.bar:nth-child(2) {
+    left: -400px;
+    animation-duration: 433ms;
+}
+
+.bar:nth-child(3) {
+    left: -350px;
+    animation-duration: 407ms;
+}
+
+.bar:nth-child(4) {
+    left: -300px;
+    animation-duration: 458ms;
+}
+
+.bar:nth-child(5) {
+    left: -250px;
+    animation-duration: 400ms;
+}
+
+.bar:nth-child(6) {
+    left: -200px;
+    animation-duration: 427ms;
+}
+
+.bar:nth-child(7) {
+    left: -150px;
+    animation-duration: 441ms;
+}
+
+.bar:nth-child(8) {
+    left: -100px;
+    animation-duration: 419ms;
+}
+
+.bar:nth-child(9) {
+    left: -50px;
+    animation-duration: 487ms;
+}
+
+.bar:nth-child(10) {
+    left: 0px;
+    animation-duration: 442ms;
+}
+
+.bar:nth-child(11) {
+    left: 50px;
+    animation-duration: 450ms;
+}
+
+.bar:nth-child(12) {
+    left: 100px;
+    animation-duration: 480ms;
+}
+
+.bar:nth-child(13) {
+    left: 150px;
+    animation-duration: 426ms;
+}
+
+.bar:nth-child(14) {
+    left: 200px;
+    animation-duration: 433ms;
+}
+
+.bar:nth-child(15) {
+    left: 250px;
+    animation-duration: 466ms;
+}
+
+.bar:nth-child(16) {
+    left: 300px;
+    animation-duration: 499ms;
+}
+
+.bar:nth-child(17) {
+    left: 350px;
+    animation-duration: 477ms;
+}
+
+.bar:nth-child(18) {
+    left: 400px;
+    animation-duration: 488ms;
+}
+
+.bar:nth-child(19) {
+    left: 450px;
+    animation-duration: 455ms;
+}
